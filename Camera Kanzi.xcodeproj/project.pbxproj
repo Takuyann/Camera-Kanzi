@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E03126F716660CD4651B952 /* Pods_Camera_Kanzi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E5E4E19F9C30695B3372CE /* Pods_Camera_Kanzi.framework */; };
+		DD66BF1A286C134800D655F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD66BF19286C134800D655F7 /* AppDelegate.swift */; };
+		DD66BF1C286C134800D655F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD66BF1B286C134800D655F7 /* SceneDelegate.swift */; };
+		DD66BF1E286C134800D655F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD66BF1D286C134800D655F7 /* ViewController.swift */; };
+		DD66BF21286C134800D655F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD66BF1F286C134800D655F7 /* Main.storyboard */; };
+		DD66BF23286C134900D655F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD66BF22286C134900D655F7 /* Assets.xcassets */; };
+		DD66BF26286C134900D655F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD66BF24286C134900D655F7 /* LaunchScreen.storyboard */; };
+		DD66BF32286C199300D655F7 /* torino-hane_pen_31348-300x300.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DD66BF31286C199300D655F7 /* torino-hane_pen_31348-300x300.jpeg */; };
+		DD66BF34286C1ABC00D655F7 /* pen_mannenhitsu_icon_4555-300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = DD66BF33286C1ABC00D655F7 /* pen_mannenhitsu_icon_4555-300x300.png */; };
+		DD66BF36286C1C4D00D655F7 /* kkrn_icon_camera_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD66BF35286C1C4D00D655F7 /* kkrn_icon_camera_3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12CF916EFEE96228DDE36A91 /* Pods-Camera Kanzi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camera Kanzi.debug.xcconfig"; path = "Target Support Files/Pods-Camera Kanzi/Pods-Camera Kanzi.debug.xcconfig"; sourceTree = "<group>"; };
+		90E5E4E19F9C30695B3372CE /* Pods_Camera_Kanzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Camera_Kanzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FE399389770E28AC44F2E0 /* Pods-Camera Kanzi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camera Kanzi.release.xcconfig"; path = "Target Support Files/Pods-Camera Kanzi/Pods-Camera Kanzi.release.xcconfig"; sourceTree = "<group>"; };
+		DD66BF16286C134800D655F7 /* Camera Kanzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera Kanzi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD66BF19286C134800D655F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD66BF1B286C134800D655F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD66BF1D286C134800D655F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD66BF20286C134800D655F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD66BF22286C134900D655F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD66BF25286C134900D655F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD66BF27286C134900D655F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD66BF31286C199300D655F7 /* torino-hane_pen_31348-300x300.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "torino-hane_pen_31348-300x300.jpeg"; path = "../../torino-hane_pen_31348-300x300.jpeg"; sourceTree = "<group>"; };
+		DD66BF33286C1ABC00D655F7 /* pen_mannenhitsu_icon_4555-300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pen_mannenhitsu_icon_4555-300x300.png"; path = "../../pen_mannenhitsu_icon_4555-300x300.png"; sourceTree = "<group>"; };
+		DD66BF35286C1C4D00D655F7 /* kkrn_icon_camera_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kkrn_icon_camera_3.png; path = ../../kkrn_icon_camera_3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD66BF13286C134800D655F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E03126F716660CD4651B952 /* Pods_Camera_Kanzi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F982CD7E1973E093A6977FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90E5E4E19F9C30695B3372CE /* Pods_Camera_Kanzi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB1A7F4F062DD12A31BD1716 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12CF916EFEE96228DDE36A91 /* Pods-Camera Kanzi.debug.xcconfig */,
+				C3FE399389770E28AC44F2E0 /* Pods-Camera Kanzi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD66BF0D286C134800D655F7 = {
+			isa = PBXGroup;
+			children = (
+				DD66BF18286C134800D655F7 /* Camera Kanzi */,
+				DD66BF17286C134800D655F7 /* Products */,
+				BB1A7F4F062DD12A31BD1716 /* Pods */,
+				2F982CD7E1973E093A6977FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD66BF17286C134800D655F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD66BF16286C134800D655F7 /* Camera Kanzi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD66BF18286C134800D655F7 /* Camera Kanzi */ = {
+			isa = PBXGroup;
+			children = (
+				DD66BF19286C134800D655F7 /* AppDelegate.swift */,
+				DD66BF1B286C134800D655F7 /* SceneDelegate.swift */,
+				DD66BF1D286C134800D655F7 /* ViewController.swift */,
+				DD66BF1F286C134800D655F7 /* Main.storyboard */,
+				DD66BF22286C134900D655F7 /* Assets.xcassets */,
+				DD66BF24286C134900D655F7 /* LaunchScreen.storyboard */,
+				DD66BF27286C134900D655F7 /* Info.plist */,
+				DD66BF31286C199300D655F7 /* torino-hane_pen_31348-300x300.jpeg */,
+				DD66BF33286C1ABC00D655F7 /* pen_mannenhitsu_icon_4555-300x300.png */,
+				DD66BF35286C1C4D00D655F7 /* kkrn_icon_camera_3.png */,
+			);
+			path = "Camera Kanzi";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD66BF15286C134800D655F7 /* Camera Kanzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD66BF2A286C134900D655F7 /* Build configuration list for PBXNativeTarget "Camera Kanzi" */;
+			buildPhases = (
+				4E918C36322B98E6E5A1C47C /* [CP] Check Pods Manifest.lock */,
+				DD66BF12286C134800D655F7 /* Sources */,
+				DD66BF13286C134800D655F7 /* Frameworks */,
+				DD66BF14286C134800D655F7 /* Resources */,
+				EBCC16FB4109D5CA80F714A8 /* [CP] Embed Pods Frameworks */,
+				E1D4211581AC6E846BD7D02A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Camera Kanzi";
+			productName = "Camera Kanzi";
+			productReference = DD66BF16286C134800D655F7 /* Camera Kanzi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD66BF0E286C134800D655F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DD66BF15286C134800D655F7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DD66BF11286C134800D655F7 /* Build configuration list for PBXProject "Camera Kanzi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD66BF0D286C134800D655F7;
+			productRefGroup = DD66BF17286C134800D655F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD66BF15286C134800D655F7 /* Camera Kanzi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD66BF14286C134800D655F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD66BF26286C134900D655F7 /* LaunchScreen.storyboard in Resources */,
+				DD66BF32286C199300D655F7 /* torino-hane_pen_31348-300x300.jpeg in Resources */,
+				DD66BF23286C134900D655F7 /* Assets.xcassets in Resources */,
+				DD66BF36286C1C4D00D655F7 /* kkrn_icon_camera_3.png in Resources */,
+				DD66BF34286C1ABC00D655F7 /* pen_mannenhitsu_icon_4555-300x300.png in Resources */,
+				DD66BF21286C134800D655F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E918C36322B98E6E5A1C47C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Camera Kanzi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D4211581AC6E846BD7D02A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Camera Kanzi/Pods-Camera Kanzi-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Camera Kanzi/Pods-Camera Kanzi-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Camera Kanzi/Pods-Camera Kanzi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBCC16FB4109D5CA80F714A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Camera Kanzi/Pods-Camera Kanzi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Camera Kanzi/Pods-Camera Kanzi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Camera Kanzi/Pods-Camera Kanzi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD66BF12286C134800D655F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD66BF1E286C134800D655F7 /* ViewController.swift in Sources */,
+				DD66BF1A286C134800D655F7 /* AppDelegate.swift in Sources */,
+				DD66BF1C286C134800D655F7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD66BF1F286C134800D655F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD66BF20286C134800D655F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD66BF24286C134900D655F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD66BF25286C134900D655F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD66BF28286C134900D655F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD66BF29286C134900D655F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD66BF2B286C134900D655F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12CF916EFEE96228DDE36A91 /* Pods-Camera Kanzi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PL6L84DZ9Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Camera Kanzi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Camera-Kanzi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD66BF2C286C134900D655F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3FE399389770E28AC44F2E0 /* Pods-Camera Kanzi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PL6L84DZ9Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Camera Kanzi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Camera-Kanzi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD66BF11286C134800D655F7 /* Build configuration list for PBXProject "Camera Kanzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD66BF28286C134900D655F7 /* Debug */,
+				DD66BF29286C134900D655F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD66BF2A286C134900D655F7 /* Build configuration list for PBXNativeTarget "Camera Kanzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD66BF2B286C134900D655F7 /* Debug */,
+				DD66BF2C286C134900D655F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD66BF0E286C134800D655F7 /* Project object */;
+}
