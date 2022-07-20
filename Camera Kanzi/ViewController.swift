@@ -27,13 +27,13 @@ import MLKitTextRecognitionCommon
             case .portrait:
                 return cameraPosition == .front ? .leftMirrored : .right
             case .landscapeLeft:
-                <#code#>
+                return cameraPosition == .front ? .downMirrored : .up
             case .portraitUpsideDown:
-                <#code#>
+                return cameraPosition == .front ? .rightMirrored : .left
             case .landscapeRight:
-                <#code#>
-            case .faceDown, .faceUp:
-                <#code#>
+                return cameraPosition == .front ? .upMirrored : .down
+            case .faceDown, .faceUp, .unknown:
+                return .up
             }
         }
         
