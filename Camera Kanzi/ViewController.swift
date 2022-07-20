@@ -22,6 +22,7 @@ import MLKitTextRecognitionCommon
         }
         let image = VisionImage(image: UIImage(named: "sample")!)
         image.orientation = imageOrientation(deviceOrientation: UIDevice.current.orientation, cameraPosition: .back)
+        
         func imageOrientation(deviceOrientaton: UIDeviceOrientation, cameraPosition: AVCaptureDevice.Position) -> UIImage.Orientation{
             switch deviceOrientaton {
             case .portrait:
