@@ -9,20 +9,24 @@ import UIKit
 import MLKit
 import MLKitTextRecognitionJapanese
 import MLKitTextRecognitionCommon
+import AVFoundation
 
     class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
         @IBOutlet var cameraImageView: UIImageView!
         
-        //let japaneseOptions = JapaneseTextRecognizerOptions()
+        let japaneseOptions = JapaneseTextRecognizerOptions()
         let japaneseTextRecognizer = TextRecognizer.textRecognizer(options: JapaneseTextRecognizerOptions())
-        
+        let image = VisionImage(image: UIImage(named: "159905")!)
         override func viewDidLoad() {
             super.viewDidLoad()
+            japaneseTextRecognizer.process(image) { result, error in
+                guard error == nil, let result = result else { return }
+                print("resultText: \(result.text)")
+            }
             // Do any additional setup after loading the view.
         }
-        let image = VisionImage(image: UIImage(named: "sample")!)
-        image.orientation = imageOrientation(deviceOrientation: UIDevice.current.orientation, cameraPosition: .back)
-        
+       // func scan(sampleBuffer: CMSampleBuffer){
+       
         func imageOrientation(deviceOrientaton: UIDeviceOrientation, cameraPosition: AVCaptureDevice.Position) -> UIImage.Orientation{
             switch deviceOrientaton {
             case .portrait:
@@ -74,6 +78,9 @@ import MLKitTextRecognitionCommon
         }
         cameraImageView.image = image
     }
-        
+//        func japaneseTextRecognizer.process(image); {result, error in
+//            guard error == nil, let result = result else { return }
+//            print("resultText: \(result.text)")
+//        }
 }
 
