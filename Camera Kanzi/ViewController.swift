@@ -16,17 +16,23 @@ import AVFoundation
         
         let japaneseOptions = JapaneseTextRecognizerOptions()
         let japaneseTextRecognizer = TextRecognizer.textRecognizer(options: JapaneseTextRecognizerOptions())
-        let image = VisionImage(image: UIImage(named: "159905")!)
+       // let image = VisionImage(image: UIImage(named: "159905")!)
         override func viewDidLoad() {
             super.viewDidLoad()
+//            japaneseTextRecognizer.process(image) { result, error in
+//                guard error == nil, let result = result else { return }
+//                print("resultText: \(result.text)")
+//            }
+            // Do any additional setup after loading the view.
+        }
+       // func scan(sampleBuffer: CMSampleBuffer){
+        @IBAction func botan(){
+            let image = VisionImage(image: cameraImageView.image!)
             japaneseTextRecognizer.process(image) { result, error in
                 guard error == nil, let result = result else { return }
                 print("resultText: \(result.text)")
             }
-            // Do any additional setup after loading the view.
         }
-       // func scan(sampleBuffer: CMSampleBuffer){
-       
         func imageOrientation(deviceOrientaton: UIDeviceOrientation, cameraPosition: AVCaptureDevice.Position) -> UIImage.Orientation{
             switch deviceOrientaton {
             case .portrait:
