@@ -8,21 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		6E03126F716660CD4651B952 /* Pods_Camera_Kanzi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E5E4E19F9C30695B3372CE /* Pods_Camera_Kanzi.framework */; };
+		DD093C40291A1CC500948FD6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD093C3F291A1CC500948FD6 /* icon.png */; };
+		DD4D354728E2BF3F00C9CBF6 /* file_document_icon_1803-300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4D354628E2BF3F00C9CBF6 /* file_document_icon_1803-300x300.png */; };
+		DD4D354B28E2C15A00C9CBF6 /* camera_icon_677-300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4D354A28E2C15900C9CBF6 /* camera_icon_677-300x300.png */; };
 		DD66BF1A286C134800D655F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD66BF19286C134800D655F7 /* AppDelegate.swift */; };
 		DD66BF1C286C134800D655F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD66BF1B286C134800D655F7 /* SceneDelegate.swift */; };
 		DD66BF1E286C134800D655F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD66BF1D286C134800D655F7 /* ViewController.swift */; };
 		DD66BF21286C134800D655F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD66BF1F286C134800D655F7 /* Main.storyboard */; };
 		DD66BF23286C134900D655F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD66BF22286C134900D655F7 /* Assets.xcassets */; };
 		DD66BF26286C134900D655F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD66BF24286C134900D655F7 /* LaunchScreen.storyboard */; };
-		DD66BF32286C199300D655F7 /* torino-hane_pen_31348-300x300.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DD66BF31286C199300D655F7 /* torino-hane_pen_31348-300x300.jpeg */; };
-		DD66BF34286C1ABC00D655F7 /* pen_mannenhitsu_icon_4555-300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = DD66BF33286C1ABC00D655F7 /* pen_mannenhitsu_icon_4555-300x300.png */; };
-		DD66BF36286C1C4D00D655F7 /* kkrn_icon_camera_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD66BF35286C1C4D00D655F7 /* kkrn_icon_camera_3.png */; };
+		DDB709A32907AB6900F9ADFF /* CropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = DDB709A22907AB6900F9ADFF /* CropViewController */; };
+		DDB709A52907AB6900F9ADFF /* TOCropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = DDB709A42907AB6900F9ADFF /* TOCropViewController */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12CF916EFEE96228DDE36A91 /* Pods-Camera Kanzi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camera Kanzi.debug.xcconfig"; path = "Target Support Files/Pods-Camera Kanzi/Pods-Camera Kanzi.debug.xcconfig"; sourceTree = "<group>"; };
 		90E5E4E19F9C30695B3372CE /* Pods_Camera_Kanzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Camera_Kanzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FE399389770E28AC44F2E0 /* Pods-Camera Kanzi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camera Kanzi.release.xcconfig"; path = "Target Support Files/Pods-Camera Kanzi/Pods-Camera Kanzi.release.xcconfig"; sourceTree = "<group>"; };
+		DD093C3F291A1CC500948FD6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../Downloads/AppIcons/icon.png; sourceTree = "<group>"; };
+		DD4D354628E2BF3F00C9CBF6 /* file_document_icon_1803-300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "file_document_icon_1803-300x300.png"; path = "../../file_document_icon_1803-300x300.png"; sourceTree = "<group>"; };
+		DD4D354A28E2C15900C9CBF6 /* camera_icon_677-300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera_icon_677-300x300.png"; path = "../../camera_icon_677-300x300.png"; sourceTree = "<group>"; };
 		DD66BF16286C134800D655F7 /* Camera Kanzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera Kanzi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD66BF19286C134800D655F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD66BF1B286C134800D655F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,9 +36,8 @@
 		DD66BF22286C134900D655F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD66BF25286C134900D655F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD66BF27286C134900D655F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD66BF31286C199300D655F7 /* torino-hane_pen_31348-300x300.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "torino-hane_pen_31348-300x300.jpeg"; path = "../../torino-hane_pen_31348-300x300.jpeg"; sourceTree = "<group>"; };
-		DD66BF33286C1ABC00D655F7 /* pen_mannenhitsu_icon_4555-300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pen_mannenhitsu_icon_4555-300x300.png"; path = "../../pen_mannenhitsu_icon_4555-300x300.png"; sourceTree = "<group>"; };
-		DD66BF35286C1C4D00D655F7 /* kkrn_icon_camera_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kkrn_icon_camera_3.png; path = ../../kkrn_icon_camera_3.png; sourceTree = "<group>"; };
+		DDFBC7912910F235000088DB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		DDFBC7922910F235000088DB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E03126F716660CD4651B952 /* Pods_Camera_Kanzi.framework in Frameworks */,
+				DDB709A52907AB6900F9ADFF /* TOCropViewController in Frameworks */,
+				DDB709A32907AB6900F9ADFF /* CropViewController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,9 +99,9 @@
 				DD66BF22286C134900D655F7 /* Assets.xcassets */,
 				DD66BF24286C134900D655F7 /* LaunchScreen.storyboard */,
 				DD66BF27286C134900D655F7 /* Info.plist */,
-				DD66BF31286C199300D655F7 /* torino-hane_pen_31348-300x300.jpeg */,
-				DD66BF33286C1ABC00D655F7 /* pen_mannenhitsu_icon_4555-300x300.png */,
-				DD66BF35286C1C4D00D655F7 /* kkrn_icon_camera_3.png */,
+				DD093C3F291A1CC500948FD6 /* icon.png */,
+				DD4D354628E2BF3F00C9CBF6 /* file_document_icon_1803-300x300.png */,
+				DD4D354A28E2C15900C9CBF6 /* camera_icon_677-300x300.png */,
 			);
 			path = "Camera Kanzi";
 			sourceTree = "<group>";
@@ -119,6 +125,10 @@
 			dependencies = (
 			);
 			name = "Camera Kanzi";
+			packageProductDependencies = (
+				DDB709A22907AB6900F9ADFF /* CropViewController */,
+				DDB709A42907AB6900F9ADFF /* TOCropViewController */,
+			);
 			productName = "Camera Kanzi";
 			productReference = DD66BF16286C134800D655F7 /* Camera Kanzi.app */;
 			productType = "com.apple.product-type.application";
@@ -145,8 +155,12 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = DD66BF0D286C134800D655F7;
+			packageReferences = (
+				DDB709A12907AB6900F9ADFF /* XCRemoteSwiftPackageReference "TOCropViewController" */,
+			);
 			productRefGroup = DD66BF17286C134800D655F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -161,11 +175,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4D354B28E2C15A00C9CBF6 /* camera_icon_677-300x300.png in Resources */,
 				DD66BF26286C134900D655F7 /* LaunchScreen.storyboard in Resources */,
-				DD66BF32286C199300D655F7 /* torino-hane_pen_31348-300x300.jpeg in Resources */,
+				DD093C40291A1CC500948FD6 /* icon.png in Resources */,
+				DD4D354728E2BF3F00C9CBF6 /* file_document_icon_1803-300x300.png in Resources */,
 				DD66BF23286C134900D655F7 /* Assets.xcassets in Resources */,
-				DD66BF36286C1C4D00D655F7 /* kkrn_icon_camera_3.png in Resources */,
-				DD66BF34286C1ABC00D655F7 /* pen_mannenhitsu_icon_4555-300x300.png in Resources */,
 				DD66BF21286C134800D655F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +263,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DD66BF20286C134800D655F7 /* Base */,
+				DDFBC7912910F235000088DB /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -257,6 +272,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DD66BF25286C134900D655F7 /* Base */,
+				DDFBC7922910F235000088DB /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -268,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -315,7 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -329,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -370,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -391,6 +409,7 @@
 				DEVELOPMENT_TEAM = PL6L84DZ9Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Camera Kanzi/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "かんじひらがなへんかん";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -421,6 +440,7 @@
 				DEVELOPMENT_TEAM = PL6L84DZ9Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Camera Kanzi/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "かんじひらがなへんかん";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -462,6 +482,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DDB709A12907AB6900F9ADFF /* XCRemoteSwiftPackageReference "TOCropViewController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TimOliver/TOCropViewController.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DDB709A22907AB6900F9ADFF /* CropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDB709A12907AB6900F9ADFF /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = CropViewController;
+		};
+		DDB709A42907AB6900F9ADFF /* TOCropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDB709A12907AB6900F9ADFF /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = TOCropViewController;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD66BF0E286C134800D655F7 /* Project object */;
 }
